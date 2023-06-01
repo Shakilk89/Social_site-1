@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/design.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="container">
+            <h2 class="log">
+                heartBook
+            </h2>
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="search" placeholder="search for creators, inspirations, and projects">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">create</label>
+                <div class="profile-photo">
+                    <img src="images/profile-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!----------------- MAIN -------------------->
+
+    <main>
+        <div class="container">
+            <!------------------- Start left ------------=----->
+            <div class="left">
+
+                <a href="#" class="profile">
+                    <div class="profile-photo">
+                        <img src="images/profile-1.jpg" alt="">
+                    </div>
+                    <div class="handle">
+                        <h4>Diana Ayi</h4>
+                        <p class="text-muted">
+                            @dayi
+                        </p>
+                    </div>
+                </a>
+
+                <div class="sidebar">
+
+                   <a href="#" class="menu-item active">
+                        <span> <i class="fa-solid fa-house"></i> </span> <h3>Home</h3>
+                   </a>
+
+                   <a href="#" class="menu-item">
+                        <span> <i class="fa-regular fa-compass"></i> </span> <h3>Explore</h3>
+                   </a>
+
+                   <a href="#" class="menu-item" id="notifications">
+                        <span> <i class="fa-regular fa-bell"> <small class="notification-count">9+</small> </i> </span> 
+                        <h3>Notifications</h3>
+                    
+                    <!--------------- start notification popup ----------------->
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/profile-2.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>KeKe Benjamin</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/profile-3.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>John Dao</b> commented on your post
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/profile-4.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Mary Oppong</b> and <b>283 others</b> liked your post
+                                    <small class="text-muted">4 MINUTES AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/profile-5.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Doris Y. Lartey</b> commented on a post are togged in
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/profile-6.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Lory pasa</b> commented on a post are togged in
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/profile-7.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>jane Doe</b> commented on your post 
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                    <!--------------- end notification popup ----------------->
+                   </a>
+
+                   <a href="#" class="menu-item" id="messages-notifications">
+                        <span> <i class="fa-regular fa-envelope"> <small class="notification-count">6</small> </i> </span>
+                        <h3>Messages</h3>
+                   </a>
+
+                   <a href="#" class="menu-item">
+                        <span> <i class="fa-regular fa-bookmark"></i> </span> 
+                        <h3>Bookmarks</h3>
+                   </a>
+
+                   <a href="#" class="menu-item">
+                        <span> <i class="fa-regular fa-chart-simple"></i> </span> 
+                        <h3>Analitics</h3>
+                   </a>
+
+                   <a href="#" class="menu-item" id="theme">
+                        <span> <i class="fa-regular fa-palette"></i> </span> 
+                        <h3>Themes</h3>
+                   </a>
+
+                   <a href="#" class="menu-item">
+                        <span> <i class="fa-regular fa-gear"></i> </span> 
+                        <h3>Settings</h3>
+                   </a>
+
+                </div>
+
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            </div>
+
+            <!------------------- End left ------------=----->
+
+            <!------------------- Start Middle ------------=----->
+            <div class="middle">
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-8.jpg" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-9.jpg" alt="">
+                        </div>
+                        <p class="name">Liroy Boy</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-10.jpg" alt="">
+                        </div>
+                        <p class="name">Bisou joa</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-11.jpg" alt="">
+                        </div>
+                        <p class="name">Honey Buney</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-12.jpg" alt="">
+                        </div>
+                        <p class="name">Humpty Dumpty</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-13.jpg" alt="">
+                        </div>
+                        <p class="name">Vidoy Dar</p>
+                    </div>
+                </div>
+                
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="images/profile-1.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="What's on your mind Diana?" id="create-post">
+                    <input type="submit" value="post" class="btn btn-primary">
+                </form>
+
+                <!-- ================ FEEDS ==================-->
+                <div class="feeds">
+                    <!-- ================ FEED-1 ==================-->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-13.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Lana Rose</h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/feed-1.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fas fa-heart"></i></span>
+                                <span><i class="fas fa-comment-dots"></i></span>
+                                <span><i class="fas fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fas fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="images/profile-10.jpg" alt=""></span>
+                            <span><img src="images/profile-4.jpg" alt=""></span>
+                            <span><img src="images/profile-15.jpg" alt=""></span>
+                            <p>Liked by <b>Ernest Achiver</b> and <b>2,323 others</b> </p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> Lorem ipsum dolor sit amet consectetur. 
+                                <span class="harsh-teg">#lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+                    <!--================= End FEED ======================-->
+
+                    <!-- ================ FEED-2 ==================-->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-14.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Barak Obama</h3>
+                                    <small>America, 5 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/feed-2.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fas fa-heart"></i></span>
+                                <span><i class="fas fa-comment-dots"></i></span>
+                                <span><i class="fas fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fas fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="images/profile-13.jpg" alt=""></span>
+                            <span><img src="images/profile-4.jpg" alt=""></span>
+                            <span><img src="images/profile-15.jpg" alt=""></span>
+                            <p>Liked by <b>Ernest Achiver</b> and <b>1,323 others</b> </p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> Lorem ipsum dolor sit amet consectetur. 
+                                <span class="harsh-teg">#lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 120 comments</div>
+                    </div>
+                    <!--================= End FEED ======================-->
+
+                    <!-- ================ FEED-3 ==================-->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-9.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Rose Velly</h3>
+                                    <small>Bangladesh, 27 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/feed-3.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fas fa-heart"></i></span>
+                                <span><i class="fas fa-comment-dots"></i></span>
+                                <span><i class="fas fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fas fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="images/profile-15.jpg" alt=""></span>
+                            <span><img src="images/profile-4.jpg" alt=""></span>
+                            <span><img src="images/profile-11.jpg" alt=""></span>
+                            <p>Liked by <b>Ernest Achiver</b> and <b>323 others</b> </p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> Lorem ipsum dolor sit amet consectetur. 
+                                <span class="harsh-teg">#lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 99 comments</div>
+                    </div>
+                    <!--================= End FEED ======================-->
+
+                    <!-- ================ FEED-4 ==================-->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-16.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Nicolo Mandas</h3>
+                                    <small>Dubai, 13 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/feed-4.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fas fa-heart"></i></span>
+                                <span><i class="fas fa-comment-dots"></i></span>
+                                <span><i class="fas fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fas fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="images/profile-5.jpg" alt=""></span>
+                            <span><img src="images/profile-9.jpg" alt=""></span>
+                            <span><img src="images/profile-15.jpg" alt=""></span>
+                            <p>Liked by <b>Ernest Achiver</b> and <b>3,323 others</b> </p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> Lorem ipsum dolor sit amet consectetur. 
+                                <span class="harsh-teg">#lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 513 comments</div>
+                    </div>
+                    <!--================= End FEED ======================-->
+
+                    <!-- ================ FEED-5 ==================-->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-17.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Biddia Balan</h3>
+                                    <small>Dubai, 26 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/feed-5.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fas fa-heart"></i></span>
+                                <span><i class="fas fa-comment-dots"></i></span>
+                                <span><i class="fas fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fas fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="images/profile-8.jpg" alt=""></span>
+                            <span><img src="images/profile-10.jpg" alt=""></span>
+                            <span><img src="images/profile-9.jpg" alt=""></span>
+                            <p>Liked by <b>Ernest Achiver</b> and <b>5,323 others</b> </p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> Lorem ipsum dolor sit amet consectetur. 
+                                <span class="harsh-teg">#lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 1000 comments</div>
+                    </div>
+                    <!--================= End FEED ======================-->
+
+                    <!-- ================ FEED-6 ==================-->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-18.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Pabel Roy</h3>
+                                    <small>India, 43 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/feed-6.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fas fa-heart"></i></span>
+                                <span><i class="fas fa-comment-dots"></i></span>
+                                <span><i class="fas fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fas fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="images/profile-7.jpg" alt=""></span>
+                            <span><img src="images/profile-5.jpg" alt=""></span>
+                            <span><img src="images/profile-1.jpg" alt=""></span>
+                            <p>Liked by <b>Ernest Achiver</b> and <b>10,323 others</b> </p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> Lorem ipsum dolor sit amet consectetur. 
+                                <span class="harsh-teg">#lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 1200 comments</div>
+                    </div>
+                    <!--================= End FEED ======================-->
+
+                    <!-- ================ FEED-7 ==================-->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/profile-19.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Lana Rose</h3>
+                                    <small>Dubai, 55 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/feed-7.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="fas fa-heart"></i></span>
+                                <span><i class="fas fa-comment-dots"></i></span>
+                                <span><i class="fas fa-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fas fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="images/profile-10.jpg" alt=""></span>
+                            <span><img src="images/profile-4.jpg" alt=""></span>
+                            <span><img src="images/profile-15.jpg" alt=""></span>
+                            <p>Liked by <b>Ernest Achiver</b> and <b>423 others</b> </p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Gana Rose</b> Lorem ipsum dolor sit amet consectetur. 
+                                <span class="harsh-teg">#lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 53 comments</div>
+                    </div>
+                    <!--================= End FEED ======================-->
+                </div>
+            </div>
+            <!------------------- End Middle ------------=----->
+           
+
+            
+            <!------------------- Start Right ------------=----->
+            <div class="right">
+                <div class="messages" id="message-box">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="fas fa-edit"></i>
+                    </div>
+                    <!---------------- SEARCH BAR ----------------->
+                    <div class="search-bar">
+                        <i class="fas fa-search"></i>
+                        <input type="search" placeholder="Search messages" id="message-search">
+                    </div>
+                    <!------------------ MESSAGE CATAGORY ------------------>
+                    <div class="catagory">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(7)</h6>
+                    </div>
+                    <!------------------ MESSAGE ------------------>
+                    
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-2.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Edum Quist</h5>
+                            <p class="text-muted">Just woke up bruh</p>
+                        </div>
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-3.jpg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Rahem khan</h5>
+                            <p class="text-bold">Happy BirthDay</p>
+                        </div>
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-4.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Merry Billi</h5>
+                            <p class="text-bold">Brand & shop</p>
+                        </div>
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-5.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Laila jaman</h5>
+                            <p class="text-muted">Visiting the world</p>
+                        </div>
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-6.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Peon Dal</h5>
+                            <p class="text-muted">Weakup man</p>
+                        </div>
+                    </div>
+
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="images/profile-7.jpg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Jow Biden</h5>
+                            <p class="text-bold">Right tip</p>
+                        </div>
+                    </div>
+                </div>
+                <!------------------ FRIEND REQUEST ------------------>
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/profile-13.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Hajia Bintu</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p> 
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!------------------------- THEME CUSTOMIZE ----------------------->
+    <div class="customize-theme" id="theme-box">
+        <div class="card">
+            <h2>Customize ypur view</h2>
+            <p class="text-muted">Manage your font size, color, and background.</p>
+
+            <!-------------------- FONT SIZE ------------------>
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2 active"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+
+            <!----------------------- PRIMARY COLOR ---------------------->
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+
+            <!---------------------- BACKGROUND COLOR ------------------>
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5>Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Light Out</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
